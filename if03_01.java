@@ -21,6 +21,7 @@ public class if03_01 {
 		for(int i=0;i<M;i++) {
 			list.add(Integer.parseInt(st.nextToken()));
 		}
+		
 		Collections.sort(list);
 		for(int i=0;i<list.size();i++) {
 			System.out.print(list.get(i)+" ");
